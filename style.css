@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
 }
 
 a{
@@ -48,6 +50,7 @@ a{
     border-radius: 20px;
     text-align: center;
     padding: 10px 15px;
+    font-size: 20px;
 }
 
 .stile1{
@@ -56,6 +59,10 @@ a{
 
 .stile2{
     background-color: black;
+}
+
+.stile3{
+    background-color: cornflowerblue;
 }
 
 .container{
@@ -67,8 +74,13 @@ a{
     text-align: center;
 }
 
+.fas{
+    margin-right: 5px;
+}
+
 .title{
     font-size: 70px;
+    line-height: 70px;
 }
 
 .text-title{
@@ -115,6 +127,43 @@ a{
 
 .image-big img{
     width: 100%;
-
 }
 
+.text-center{
+    text-align: center;
+}
+
+.title3{
+    font-size: 40px;
+}
+
+.star{
+    background-image: url(img/stars.svg);
+    background-position: center;
+    background-size: auto;
+}
+
+.block2{
+    padding: 10vh 0 20vh;
+    position: relative;
+}
+
+.download2{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.colonna{
+    background-color: rgb(29, 32, 32);
+    width: 100%;  
+}
+
+.text-blu{
+    color: cornflowerblue;
+}
+
+ul{
+    list-style: none;
+}
