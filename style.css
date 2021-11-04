@@ -68,6 +68,20 @@ a{
 .text-title{
     color: white;
     font-size: 25px;
-
 }
+
+.container .btn{
+    margin-top: 20px;
+}
+
+.download{
+    position: absolute;
+    bottom: 20px;
+    margin: 0 20%;
+}
+
+.download .btn{
+    margin: 20px;
+}
+
 
