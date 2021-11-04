@@ -10,13 +10,13 @@ a{
 
 .jumbo{
     background-image: url(img/jumbo.png);
-    height: 650px;
+    height: 70vh;
     background-size: cover;
     position: relative;
 }
 
 .center-bloc{
-    width: 60%;
+    width: 70%;
     margin: 0px auto;
     padding-top: 20px;
 }
@@ -45,10 +45,17 @@ a{
 }
 
 .btn{
-    background-color: white;
     border-radius: 20px;
     text-align: center;
     padding: 10px 15px;
+}
+
+.stile1{
+    background-color: white;
+}
+
+.stile2{
+    background-color: black;
 }
 
 .container{
@@ -61,13 +68,16 @@ a{
 }
 
 .title{
-    color: white;
     font-size: 70px;
 }
 
 .text-title{
-    color: white;
     font-size: 25px;
+    margin-top: 30px;
+}
+
+.text-white{
+    color: white;
 }
 
 .container .btn{
@@ -76,7 +86,7 @@ a{
 
 .download{
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
     margin: 0 20%;
 }
 
@@ -84,4 +94,27 @@ a{
     margin: 20px;
 }
 
+.block{
+    height: 70vh;
+    padding-top: 10vh;
+}
+
+.testo, .image{
+    width: 50%;
+    float: left;
+}
+
+.testo{
+    width: 40%;
+    margin: 40px 40px 0;
+}
+
+.sfondo{
+    background-color: whitesmoke;
+}
+
+.image-big img{
+    width: 100%;
+
+}
 
